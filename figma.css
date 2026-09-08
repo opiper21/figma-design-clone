@@ -1,0 +1,46 @@
+@import "tailwindcss"
+
+<img src="./figmaimages/fig3images/image 18.svg" alt="">
+                    <div class="bg-[#F5F7FA] w-[317px] h-[176px] absolute items-center px-[25.5]">
+                        <h2 class="font-semibold text-xl leading-[28px] tracking-[0px] text-[#717171] text-center">Creating Streamlined Safeguarding Processes with OneRen</h2>
+                        <div class="flex">
+                            <h3 class="text-[#4CAF4F] leading-[28px] tracking-[0px] font-semibold text-xl text-center">Readmore </h3>
+                            <img src="./figmaimages/tesla/Right.svg" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="flex gap-6 mt-4">
+                <div class="relative">
+                    <img src="./figmaimages/fig3images/image 18.svg" alt="">
+                    <div class="bg-[#F5F7FA] p-[16px] top-42 left-6 right-6 absolute rounded-[8px]">
+                        <h2 class="font-semibold text-xl leading-[28px] tracking-[0px] text-[#717171] text-center">Creating Streamlined Safeguarding Processes with OneRen</h2>
+                        <div class="flex items-center justify-center mt-[24px] gap-2">
+                            <h3 class="text-[#4CAF4F] leading-[28px] tracking-[0px] font-semibold text-xl text-center">Readmore </h3>
+                            <img src="./figmaimages/tesla/Right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="./figmaimages/fig3images/image 19.svg" alt="">
+                    <div class="bg-[#F5F7FA] p-[16px] top-42 left-6 right-6 absolute rounded-[8px]">
+                        <h2 class="font-semibold text-xl leading-[28px] tracking-[0px] text-[#717171] text-center">What are your safeguarding responsibilities and how can you manage them?</h2>
+                        <div class="flex items-center justify-center mt-[24px] gap-2">
+                            <h3 class="text-[#4CAF4F] leading-[28px] tracking-[0px] font-semibold text-xl text-center">Readmore </h3>
+                            <img src="./figmaimages/tesla/Right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="./figmaimages/fig3images/image 20.svg" alt="">
+                    <div class="bg-[#F5F7FA] p-[16px] top-42 left-6 right-6 absolute rounded-[8px]">
+                        <h2 class="font-semibold text-xl leading-[28px] tracking-[0px] text-[#717171] text-center">Revamping the Membership Model with Triathlon <br> Australia</h2>
+                        <div class="flex items-center justify-center mt-[24px] gap-2">
+                            <h3 class="text-[#4CAF4F] leading-[28px] tracking-[0px] font-semibold text-xl text-center">Readmore </h3>
+                            <img src="./figmaimages/tesla/Right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
