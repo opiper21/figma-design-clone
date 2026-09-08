@@ -8,7 +8,7 @@
 </head>
 <body class="bg-[#F5F7FA] w-full overflow-x-hidden">
     <!-- Nav Bar -->
-    <nav class="flex justify-between items-center px-4 sm:px-8 md:px-[105px] py-4 md:py-[30px] bg-[#F5F7FA]">
+    <nav class="relative flex justify-between items-center px-4 sm:px-8 md:px-[105px] py-4 md:py-[30px] bg-[#F5F7FA]">
         <img class="h-8 md:h-auto" src="./figmaimages/Logo.svg" alt="">
         <div class="hidden md:flex gap-[50px]">
             <a href="">Home</a>
@@ -22,8 +22,33 @@
         <div class="flex gap-3 md:gap-[14px] justify-between items-center">
             <a class="text-[#4CAF4F] hidden sm:inline" href="">Login</a>
             <button class="bg-[#4CAF4F] text-white rounded-[6px] px-4 py-2 md:px-[20px] md:py-[10px] text-sm md:text-base">Sign Up</button>
+            <button id="menuBtn" class="md:hidden flex flex-col gap-[5px] p-2" aria-label="Open menu">
+                <span class="block w-6 h-[2px] bg-[#4D4D4D]"></span>
+                <span class="block w-6 h-[2px] bg-[#4D4D4D]"></span>
+                <span class="block w-6 h-[2px] bg-[#4D4D4D]"></span>
+            </button>
+        </div>
+
+        <!-- Mobile menu panel -->
+        <div id="mobileMenu" class="hidden md:hidden absolute top-full left-0 w-full bg-[#F5F7FA] shadow-lg flex-col items-center gap-4 py-6 z-50">
+            <a href="" class="block">Home</a>
+            <a href="" class="block">Service</a>
+            <a href="" class="block">Feature</a>
+            <a href="" class="block">Product</a>
+            <a href="" class="block">Testimonial</a>
+            <a href="" class="block">FAQ</a>
+            <a href="" class="block text-[#4CAF4F]">Login</a>
         </div>
     </nav>
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        });
+    </script>
 
     <!-- Hero -->
     <div class="bg-[#F5F7FA] flex flex-col md:flex-row px-4 sm:px-8 md:px-[105px] py-8 md:py-[30px] items-center gap-8 md:gap-4">
